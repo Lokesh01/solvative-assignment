@@ -1,8 +1,8 @@
-import { connectToDatabase } from "./src/db/dbConnection.js";
+import { connectToDatabase } from "./db/dbConnection.js";
 import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
-import userRoutes from "./src/routes/user.js";
+import userRoutes from "./routes/user.js";
 
 const port = 5000;
 const app = express();
